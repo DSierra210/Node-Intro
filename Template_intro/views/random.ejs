@@ -1,0 +1,7 @@
+<%- include('./partials/head.ejs')  %> 
+
+    <%- include('./partials/navbar.ejs')  %> 
+    <h1>Your random number is: <%= num %> </h1>
+    <p><%= num % 2 === 0 ? `${num} is an even number` : `${num} is an odd number` %> </p> 
+
+    <%- include('./partials/footer.ejs')  %> 
